@@ -1,0 +1,515 @@
+
+body{
+    background-color: #dad2b6
+}     
+    h1{
+    font-family: Arial;
+color: darkblue;
+background: lightblue;
+font-size: 36px;
+text-align: center;
+margin: 0 0 2% 0;
+padding: 2.5% 0 2% 0;
+border: 10px solid;
+border-color: darkblue;
+}
+
+nav{
+    font-family: Arial;
+    font-weight: bold;
+    background: #0c008b;
+    text-align: center; 
+    font-size: 18px;
+    padding: 2% 0 2% 0;
+    margin-right: 5%;
+    Margin-left: 5%;
+    border: 10px solid;
+    border-color: lightblue;
+    border-radius: 25px;
+}
+
+nav a{
+    color: lightblue;
+    padding: 5% 0 5% 0;
+    text-decoration: none;
+}
+.NavigationBar a:hover{
+    color: red;
+
+} 
+@media screen and (max-width: 500px){
+    nav a{ 
+        display: block;
+    }
+}
+
+@media screen and (max-width: 500px){
+    upperthirdgrid { 
+        display: block;
+    }
+}
+h2 {
+    font-family: Arial;
+    background-color:lightblue;
+    text-align: center;
+    color:blue;
+    font-size: 32px;
+    padding: 1% 0 1% 0;
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 5px solid;
+    border-radius: 25px;
+}
+
+h3 {
+    font-family: Arial;
+    text-align: center;
+    color:black;
+    font-size: 24px;
+    padding: 1% 0 1% 0;
+}
+
+
+    img {
+        border: 5px solid;
+        border-radius: 25px;
+    }
+
+    iframe {
+        border: 5px solid;
+        border-radius: 25px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+.ClarifyLogo img{
+    display:grid;
+    grid-template-columns: 1fr;
+    margin-left: 40%;
+    margin-right: 33%
+}
+
+.IdeateLogo img{
+    display:grid;
+    grid-template-columns: 1fr;
+    margin-left: 38%;
+    margin-right: 33%
+}
+
+.DevelopLogo img{
+    display:grid;
+    grid-template-columns: 1fr;
+    margin-left: 38%;
+    margin-right: 33%
+}
+
+.ImplementLogo img{
+    display:grid;
+    grid-template-columns: 1fr;
+    margin-left: 38%;
+    margin-right: 33%
+}
+
+.stage1 h2{
+    color:black;
+    background:#62c3c5;
+    border: 5px solid;
+    border-color: black;
+    border-radius: 25px;
+}
+
+.stage2 h2{
+    color:black;
+    background:#f7be1a;
+    border: 5px solid;
+        border-radius: 25px;
+        border-color: black;
+
+}
+.ideate ol{
+   color:black;
+    background:#f7be1a;
+    border: 5px solid;
+        border-radius: 25px;
+        border-color: black; 
+}
+
+.stage3 h2{
+    color:black;
+    background:#b8c02d;
+    border: 5px solid;
+        border-radius: 25px;
+        border-color: black;
+}
+.develop ol{
+   color:black;
+    background:#b8c02d;
+    border: 5px solid;
+        border-radius: 25px;
+        border-color: black; 
+}
+
+.stage4 h2{
+    color:black;
+    background:#f37920;
+    border: 5px solid;
+        border-radius: 25px;
+        border-color: black;
+
+}
+.implement ol{
+   color:black;
+    background:#f37920;
+    border: 5px solid;
+        border-radius: 25px;
+        border-color: black; 
+}
+
+
+.BannerText ul{
+    color:black;
+    background-color:lightblue;
+    font-family: Arial;
+    font-size: 18px;
+    padding: 2% 5% 2% 5%;
+    text-align: left;
+    border: 5px solid;
+    border-radius: 25px;
+    margin-top: 6%;
+}
+
+
+.upperthirdgrid{
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 1rem;
+    margin-left: 33%;
+    margin-right: 17%
+
+}
+.Process {
+    color:darkblue;
+    background-color:lightblue;
+    font-family: Arial;
+    font-size: 32px;
+    padding: 2% 5% 2% 5%;
+    text-align: left;
+    border: 5px solid;
+    border-radius: 25px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+
+ }
+.MiddleThirdGrid{
+    display:grid;
+    grid-template-columns: 2fr 1fr; 
+    grid-gap: 1rem;
+    margin-left: 20%;
+    margin-right: 15%;
+
+}
+   .CaptivateCPSIntro{
+        display:grid;
+        grid-template-columns: 2fr 2fr; 
+        margin-left: 35%;
+        margin-right: 25%;
+        margin-bottom: 5%;
+    
+
+}
+.FourSightStages{
+    margin-top: 10%;
+}
+ .CaptivateCPSIntro:hover{
+        opacity: .5;
+}
+
+.ClarifyMural:hover{
+    opacity: .5;
+
+}
+
+.IdeateMural:hover{
+    opacity: .5;
+
+}
+
+.DevelopMural:hover{
+    opacity: .5;
+
+}
+
+.ImplementMural:hover{
+    opacity: .5;
+
+}
+
+.ClarifyUpperThirdGrid{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    margin-left: 10%;
+    margin-right: 15%;
+    margin-bottom: 5%;
+
+}
+
+.ClarifyMiddleThirdGrid{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    margin-left: 10%;
+    margin-right: 15%;
+    margin-bottom: 5%;
+}
+
+.clarifygrid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 5rem;
+    font-family: Arial;
+        font-size: 18px;
+    color:black;
+    background:#62c3c5;
+    border: 5px solid;
+        border-radius: 25px;
+        border-color: black;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 2% 5% 2% 5%; 
+    
+}
+.ClarifyStartHere ul{
+    background:#62c3c5;
+    color:black;
+    font-family: Arial;
+    font-size: 24px;
+    background:#62c3c5;
+    border: 5px solid;
+        border-radius: 25px;
+        border-color: black;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 2% 5% 2% 5%; 
+}
+.InstructionsClarifyMural ul{
+    font-family: Arial;
+    font-size: 18px;
+    color:black;
+    background:#62c3c5;
+    border: 5px solid;
+    border-radius: 25px;
+    border-color: black;
+    padding: 2% 5% 2% 5%;
+    margin-top: 10%; 
+}
+
+.ClarifyLowerThirdGrid{
+    display:grid;
+    grid-template-columns: 3fr 2fr;
+    grid-gap: 1rem;
+    margin-left: 15%;
+    margin-right: 10%;
+
+}
+.HomePageLowerThird ul{
+    color:black;
+    background-color:lightblue;
+    font-family: Arial;
+    font-size: 32px;
+    padding: 2% 5% 2% 5%;
+    text-align: left;
+    border: 5px solid;
+    border-radius: 25px;
+    margin-left: 25%;
+    margin-right: 25%; 
+}
+
+.IdeateStartHere ul{
+    background:#f7be1a;
+    color:black;
+    font-family: Arial;
+    font-size: 18px;
+    border: 5px solid;
+    border-radius: 25px;
+    border-color: black;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 2% 5% 2% 5%; 
+}
+
+
+.IdeateUpperThirdGrid{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5rem;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+
+}
+.ImplementUpperThirdGrid{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5rem;
+    margin-left: 21%;
+    margin-right: 29%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+
+}
+
+.IdeateGrid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5rem;
+    font-family: Arial;
+        font-size: 18px;
+    color:black;
+    background:#f7be1a;
+    border: 5px solid;
+        border-radius: 25px;
+        border-color: black;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 2% 5% 2% 5%; 
+    
+}
+.InstructionsIdeateMural ul{
+    font-family: Arial;
+    font-size: 18px;
+    color:black;
+    background:#f7be1a;
+    border: 5px solid;
+    border-radius: 25px;
+    border-color: black;
+    padding: 2% 5% 2% 5%;
+    margin-top: 10%; 
+}
+
+.IdeateLowerThirdGrid{
+    display:grid;
+    grid-template-columns: 3fr 2fr;
+    grid-gap: 1rem;
+    margin-left: 15%;
+    margin-right: 10%;
+}
+.DevelopGrid{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5rem;
+    font-family: Arial;
+        font-size: 18px;
+    color:black;
+    background:#b8c02d;
+    border: 5px solid;
+        border-radius: 25px;
+        border-color: black;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 2% 5% 2% 5%; 
+    
+}
+.InstructionsDevelopMural ul{
+    font-family: Arial;
+    font-size: 18px;
+    color:black;
+    background:#b8c02d;
+    border: 5px solid;
+    border-radius: 25px;
+    border-color: black;
+    padding: 2% 5% 2% 5%;
+    margin-top: 10%; 
+}
+
+.DevelopLowerThirdGrid{
+    display:grid;
+    grid-template-columns: 3fr 2fr;
+    grid-gap: 1rem;
+    margin-left: 15%;
+    margin-right: 10%;
+}
+
+.ImplementGrid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5rem;
+    font-family: Arial;
+        font-size: 18px;
+    color:black;
+    background:#f37920;
+    border: 5px solid;
+        border-radius: 25px;
+        border-color: black;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 2% 5% 2% 5%; 
+    
+}
+
+.InstructionsImplementMural ul{
+    font-family: Arial;
+    font-size: 18px;
+    color:black;
+    background:#f37920;
+    border: 5px solid;
+    border-radius: 25px;
+    border-color: black;
+    padding: 2% 5% 2% 5%;
+    margin-top: 10%; 
+}
+
+.ImplementLowerThirdGrid{
+    display:grid;
+    grid-template-columns: 3fr 2fr;
+    grid-gap: 1rem;
+    margin-left: 15%;
+    margin-right: 10%;
+}
+
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-top: 25%;
+}
+
+th, td{
+    padding: 15px;
+}
+
+tr:nth-child(even){
+    background: #dddddd;
+}
+
+.MoreInfoUpperThirdGrid{
+    display:grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-gap: 1rem;
+    margin-left: 15%;
+    margin-right: 10%;
+    margin-top: 1%;
+    border: 5px solid;
+    border-color:#0c008b;
+    border-radius: 25px;
+}
+
+.TrainingResearchTableText{
+    color:black;
+    font-family: Arial;
+    font-size: 18px;
+    padding: 2% 5% 2% 5%;
+    text-align: left;
+    
+}
+
+.CPSQuiz{
+    color:black;
+    font-family: Arial;
+    font-size: 24px;
+    padding: 2% 5% 2% 5%;
+    text-align: center;
+    
+}
